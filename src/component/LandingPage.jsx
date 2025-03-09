@@ -5,6 +5,7 @@ import { MdOutlineClose } from "react-icons/md";
 import bg from '../assets/bg.jpg';
 import bekground from '../assets/bekground.jpg';
 import background from '../assets/background.jpg'
+import Link from './Link';
 
 const LandingPage = () => {
     const [loaded, setLoaded] = useState(false);
@@ -74,6 +75,8 @@ const LandingPage = () => {
                     </motion.div>
                 )}
             </div>
+
+            <Link />
         </div>
     );
 }
