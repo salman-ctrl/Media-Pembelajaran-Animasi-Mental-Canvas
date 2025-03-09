@@ -30,7 +30,7 @@ const LandingPage = () => {
                         initial={{ opacity: 0, scale: 0.5 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1 }}
-                        className="h-80 relative w-96 bg-amber-600 rounded-2xl shadow-4xl overflow-hidden flex flex-col hover:scale-110 transition-all duration-700 cursor-pointer"
+                        className="h-80 relative w-92 bg-amber-600 rounded-2xl shadow-4xl overflow-hidden flex flex-col hover:scale-110 transition-all duration-700 cursor-pointer"
                         onClick={() => setFrame(true)}
                     >
                         <img src={bekground} alt="Background" className="h-50 w-full object-cover relative" />
@@ -73,7 +73,7 @@ const LandingPage = () => {
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
-                                className="w-full h-full border-2"
+                                className="w-full h-full"
                             />
                         </div>
                     </motion.div>
